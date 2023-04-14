@@ -217,11 +217,11 @@ label {
 
 /* Footer Center */
 
-.footer-distributed .footer-center{
+ .footer-center{
 	width: 35%;
 }
 
-.footer-distributed .footer-center i{
+ .footer-center i{
 	background-color:  #33383b;
 	color: #ffffff;
 	font-size: 25px;
@@ -234,12 +234,12 @@ label {
 	vertical-align: middle;
 }
 
-.footer-distributed .footer-center i.fa-envelope{
+.footer-center i.fa-envelope{
 	font-size: 17px;
 	line-height: 38px;
 }
 
-.footer-distributed .footer-center p{
+.footer-center p{
 	display: inline-block;
 	color: #ffffff;
   font-weight:400;
@@ -247,19 +247,19 @@ label {
 	margin:0;
 }
 
-.footer-distributed .footer-center p span{
+.footer-center p span{
 	display:block;
 	font-weight: normal;
 	font-size:14px;
 	line-height:2;
 }
 
-.footer-distributed .footer-center p a{
+.footer-center p a{
 	color:  lightseagreen;
 	text-decoration: none;;
 }
 
-.footer-distributed .footer-links a:before {
+.footer-links a:before {
   content: "|";
   font-weight:300;
   font-size: 20px;
@@ -269,7 +269,7 @@ label {
   padding-right: 5px;
 }
 
-.footer-distributed .footer-links .link-1:before {
+.footer-links .link-1:before {
   content: none;
 }
 
@@ -281,7 +281,7 @@ label {
 
 .footer-distributed .footer-company-about{
 	line-height: 20px;
-	color:  #92999f;
+	color:  white;
 	font-size: 13px;
 	font-weight: normal;
 	margin: 0;
@@ -293,6 +293,13 @@ label {
 	font-size: 14px;
 	font-weight: bold;
 	margin-bottom: 20px;
+}
+.footer-redes {
+  text-align: justify;
+  color:white;
+}
+.footer-redes span {
+  color: var(--color-verde);
 }
 
 .footer-distributed .footer-icons{
