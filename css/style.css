@@ -121,6 +121,31 @@ body {
   font-size: 18px;
   text-align: justify;
 }
+.tips {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.caja {
+  background-color: var(--color-verde);  
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  flex-basis: calc(50% - 20px);
+  max-width: 450px;
+}
+
+.caja a {
+  color: var(--color-azulado);
+  font-size: 18px;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .caja {
+    flex-basis: calc(100% - 20px);
+  }
+}
 
 
 /* CONTACTO */
@@ -131,11 +156,29 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: column;
   min-height: 20vh;
 }
 .contacto a{
   color: var(--color-verde);
 }
+.contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+
+input, select, textarea {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
 textarea {
   font-size: 0.8rem;
   letter-spacing: 1px;
@@ -153,6 +196,25 @@ textarea {
 label {
   display: block;
   margin-bottom: 10px;
+}
+
+ .btn-register {
+  background-color:var(--color-verde);
+  border: none;
+  border-radius: 4px;
+  color: #3f3d56;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+.btn-register:hover {
+  background-color: #3f3d56;
+  color: whitesmoke;
+  border-radius: 4px;
+  border: 1px solid whitesmoke;
 }
 
 /* FOOTER */
