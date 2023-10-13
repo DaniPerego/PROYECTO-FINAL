@@ -33,7 +33,7 @@ body {
   padding-left: 4vw;
 }
 
-.nav_logo i{
+.nav_logo {
   font-size: 45px;
 }
 .nav_items a{
